@@ -1,0 +1,42 @@
+html {
+    font-size: 10px; /* px quiere decir 'pixels': la base del tamaño de fuente es ahora de 1o pixeles*/
+    font-family: 'Baloo Thambi 2', cursive;;
+    background-color: #00539F;
+}
+
+body {
+      width: 600px;  /*esto hará que el cuerpo siempre tenga 600 pixeles de ancho*/ 
+      margin: 0 auto; /* Cuando seleccionas dos valores dentro de propiedades como margin o padding, el primer valor afectara los lados superior (top) e inferior (bottom) (en este caso haciéndolo en 0), y el segundo valor los lados izquierda (left) y derecha (right) (aquí, auto es un valor especial que divide el espacio disponible entre derecha e izquierda). */ 
+      background-color: #FF9500;
+      padding: 0 20px 20px 20px; /*Los valores se ponen: arribar, derecha, abajo e izquierda, en ese orden */ 
+      border: 5px solid black; /*éste simplemente coloca un borde de 5 pixeles de ancho, continuo y de color negro alrededor del body. */
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+  
+p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* 
+relleno(padding), el espacio alrededor del contenido (ej: alrededor del texto de un párrafo)
+marco(border), la línea que se encuentra fuera del relleno
+margen(margin), el espacio fuera del elemento que lo separa de los demás.
+*/
+
