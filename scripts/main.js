@@ -105,7 +105,7 @@ Hay muchas maneras de enlazar un evento a un elemento; aquí hemos seleccionado 
 
 */
 
-/*
+
 var miImage = document.querySelector('img');
 
 miImage.onclick = function(){
@@ -116,7 +116,7 @@ miImage.onclick = function(){
         miImage.setAttribute('src','images/firefox.png');
     }
 }
-*/
+
 
 let miBoton = document.querySelector('button');
 let miTitulo = document.querySelector('h1');
